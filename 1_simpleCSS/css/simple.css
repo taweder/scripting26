@@ -1,0 +1,57 @@
+/* to set the default look use the body tag */
+body{
+    /* removes any default padding and margin inside the browser window */
+    margin:0;
+    padding:0;
+}
+
+header{
+    /* set the background colour */
+    background-color: #010d44;
+    /* space INSIDE of an element */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* DON'T put LEFT OR RIGHT PADDING!!!! */
+
+    /* color of text in the header */
+    color: #ffd1be;
+    /* put the text in the middle */
+    text-align: center;
+    /* size of text */
+    font-size: 26pt;
+    /* push the sections off the bottom of the header */
+    margin-bottom: 100px;
+}
+
+h2{
+    color: #010d44;
+}
+
+section{
+    /* set the width with max-width */
+    max-width: 960px;
+    /* automatically center a whole element */
+    margin: auto;
+}
+
+p, ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+img{
+    float: right;
+    margin-left: 20px;
+}
+/* change the link to be a different colour */
+a{
+    color: rgb(255, 102, 0);
+}
+
+#second{
+    background-color: rgb(255, 102, 0);
+    /* space inside the second section */
+    padding: 20px;
+    /* space after the section */
+    margin-bottom: 50px;
+}
