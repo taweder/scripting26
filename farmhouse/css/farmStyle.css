@@ -1,0 +1,124 @@
+/* ALWAYS import the fonts first so you can use them later */
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.notable-regular, h1, h2 {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto, body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+header, footer{
+    background-color: rgb(48, 223, 62);
+    /* center align the text */
+    text-align: center;
+    /* add top and bottom padding */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* change the text color to white */
+    color: white;
+}
+
+body{
+    /* remove the default padding and margin */
+    padding: 0;
+    margin: 0;
+
+    /* background colour */
+    background: #781400;
+    background: linear-gradient(180deg, rgba(120, 20, 0, 1) 0%, rgba(250, 208, 177, 1) 100%);
+}
+/* **************************background colour*********** */
+/* classes are reusable and can be added to many html tags */
+.bg-dark{
+    background-color: rgb(80, 1, 1);
+}
+
+.bg-grey{
+    background-color: rgb(136, 86, 86);
+}
+
+section{
+    /* max-width */
+    max-width: 960px;
+    /* centering the whole section */
+    margin: auto;
+    /* white text */
+    color: white;
+    /* add space inside the section */
+    padding: 15px;
+    /* add space after the section */
+    margin-bottom: 50px;
+    /* drop shadow */
+    -webkit-box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4); 
+    box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4);
+    /* stop content from overflowing outside of the section */
+    overflow: hidden;
+}
+
+/* float images to the left */
+/* ONLY images inside of sections */
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+/* *************************Navbar****************************** */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5a0202;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* t, r, b, l */
+  /* t&b, r&l */
+  padding: 20px 25px;
+  /* removes the underline from links */
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  background-color: #ff8801;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+/* **************************style our regular links***** */
+a{
+    color: #ff8801;
+}
+a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
